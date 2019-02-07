@@ -15,3 +15,6 @@ Overfitting vs Underfitting: if you are fitting very well to your training data 
 Dropout: remove neurons during training randomly.
 
 Expanding Data: Artificially expand data by adding noise. tilting images, adding low white noise to sound data, etc...
+
+
+Softmax Regression: returns a list of values between 0 and 1 that add up to one.
