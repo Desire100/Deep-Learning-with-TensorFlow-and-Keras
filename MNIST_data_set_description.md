@@ -1,0 +1,2 @@
+A classic data set in Deep Learning is the MNIST data set.
+MNIST data set contains handwritten single digits from 0 to 9 and a single digit image can be represented as an array. specifically we can represent it as 28 by 28 pixels. We can flatten this array to 1-D vector of 784 numbers. Either (784,1) or (1,781) is fine, as long as the dimensions are consistent throughout your trainning. Flattening out the image ends up removing some of the 2-D information, such as the relationship of a pixel to its neighboring pixels.
