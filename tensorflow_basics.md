@@ -4,7 +4,7 @@ graphs are sets of connected nodes (vertices). the connections are referred to a
 There are two main types of tensor objects in a gaph; variables and placeholders.
 During the optimization process TensorFlow tunes the parameters of the model.
 
-### 2. Variables：
+### 2.VARIABLES：
 Variables can hold the values of weights and biases throughout the session. they need to be initialized.
-### 3. Placeholders：
+### 3. PLACEHOLDERS:
 Placeholders are initially empty and are used to feed in the actual training examples and that is your actual data that you are training your model on. However they do need a declared expected data type(tf.float32) with an optional shape argument.
